@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">RU Pizza</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="pizza_types">
+        <item>Deluxe</item>
+        <item>BBQ Chicken</item>
+        <item>Meatzza</item>
+        <item>Build Your Own</item>
+    </string-array>
+
+    <string-array name="pizza_styles">
+        <item>Chicago Style</item>
+        <item>New York Style</item>
+    </string-array>
+
+    <!--    Main Activity -->
+    <string name="MainCurrentOrderButton">Current Order</string>
+    <string name="MakePizzas">Make Pizza</string>
+    <string name="MainStoreOrderButton">Store Orders</string>
+    <string name="QuitButton">Quit</string>
+
+    <!--    Order Activity -->
+    <string name="BackButton">BACK</string>
+    <string name="CurrentOrderText">Current Order</string>
+    <string name="SubtotalText">subtotal: $</string>
+    <string name="DefaultPrice">0.00</string>
+    <string name="OrderTotalText">order total: $</string>
+    <string name="SalesTaxText">sales tax: $</string>
+    <string name="PlaceOrderButton">Place Order</string>
+    <string name="ClearOrderButton">Clear Order</string>
+
+    <!--    Store Order Activity -->
+    <string name="SelectOrderText">Select Order</string>
+    <string name="StoreOrderTotal">Order Total: $ 0.00</string>
+    <string name="CancelOrderButton">Cancel Order</string>
+    <string name="SpinnerText">orders</string>
+
+    <!--    Pizza Row -->
+    <string name="PizzaTextView">TextView</string>
+
+    <!--    Select Pizza -->
+    <string name="SmallRadioButton">Small</string>
+    <string name="MediumRadioButton">Medium</string>
+    <string name="LargeRadioButton">Large</string>
+
+    <string name="SizeTextView">Size: </string>
+    <string name="CrustTextView">Crust: </string>
+    <string name="ToppingsTextView">Toppings:</string>
+
+    <string name="CheckBoxBBQ">BBQ Chicken</string>
+    <string name="CheckBoxSausage">Sausage</string>
+    <string name="CheckBoxOnion">Onion</string>
+    <string name="CheckBoxMushroom">Mushroom</string>
+    <string name="CheckBoxGP">Green Pepper</string>
+    <string name="CheckBoxCheddar">Cheddar</string>
+    <string name="CheckBoxPepperoni">Pepperoni</string>
+    <string name="CheckBoxProvolone">Provolone</string>
+    <string name="CheckBoxBeef">Beef</string>
+    <string name="CheckBoxHam">Ham</string>
+    <string name="CheckBoxJalapeno">Jalapeno</string>
+    <string name="CheckBoxOlive">Olive</string>
+    <string name="CheckBoxSpinach">Spinach</string>
+
+    <string name="PizzaPriceTextView">Price: </string>
+    <string name="AddPizzaToOrderButton">Add to Order</string>
+
+
+</resources>

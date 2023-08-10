@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:id="@+id/storeOrdertextview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dp"
+        android:text="@string/SelectOrderText" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="387dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/SpinnerText"/>
+
+    <ListView
+        android:id="@+id/StoreOrderListView"
+        android:layout_width="wrap_content"
+        android:layout_height="509dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/storeOrderTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="@string/StoreOrderTotal" />
+
+    <Button
+        android:id="@+id/cancelOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CancelOrderButton" />
+
+</LinearLayout>
